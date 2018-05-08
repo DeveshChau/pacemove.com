@@ -131,7 +131,7 @@ if(isset($_POST['submit']))
         <?php if (isset($_SESSION['usermobile'])) { ?>
         <div class="dropdown">
           <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <?php echo $_SESSION['usermobile']?>
+            <?php echo $_SESSION['username']?>
           </a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             <a class="dropdown-item" href="logout.php">Logout
