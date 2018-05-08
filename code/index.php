@@ -341,23 +341,23 @@ if(isset($_SESSION['ERR']))
         <div class="bottom_panel_left">
           <h2>Attach with us
           </h2>
-          <a href="#">
+          <a href="https://www.facebook.com/pacemove/">
             <i class="fa fa-facebook" aria-hidden="true">
             </i>
           </a>
-          <a href="#">
+          <a href="https://mobile.twitter.com/PaceMove">
             <i class="fa fa-twitter" aria-hidden="true">
             </i>
           </a>
-          <a href="#">
+          <a href="https://business.google.com/pacemove">
             <i class="fa fa-google-plus" aria-hidden="true">
             </i>
           </a>
-          <a href="#">
+          <a href="https://www.pinterest.com/Pacemove123/">
             <i class="fa fa-pinterest" aria-hidden="true">
             </i>
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/pacemove/">
             <i class="fa fa-instagram" aria-hidden="true">
             </i>
           </a>
