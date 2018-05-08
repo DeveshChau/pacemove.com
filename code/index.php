@@ -45,7 +45,6 @@ if(isset($_POST['submit']))
     <!-- html code end-->
   </head>
   <body class="indexbody" onload="myFunction()" style="margin:0;">
-  <h1>hello</h1>
     <header>
       <!-- html code start -->
       <div class="nav-toggle">

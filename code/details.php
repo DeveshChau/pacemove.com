@@ -15,7 +15,7 @@ if(!isset($_SESSION['sessionvariable'])){
 		<link rel="stylesheet" href="./css/style.css">
   	</head>
   	<body class="child-page">
-<h1>test</h1>
+
 	<header>
   	<div class="navbar navbar-light  box-shadow" id="main-header">
 		<div class="container">
