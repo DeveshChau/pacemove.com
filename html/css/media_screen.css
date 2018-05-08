@@ -1,0 +1,279 @@
+@media screen and (min-width:1367px)
+
+{
+	.banner_panel{background-size: 100%;}
+
+}
+
+@media screen and (max-width:1200px)
+{
+
+.step_panel article{ width:calc(100% / 3 - 8px);  }
+	
+	.step_panel article:last-child{width:calc(100% / 3 - 85px);}
+	
+	.why_choose_us_panel_left{ max-width: 504px; }
+	
+
+}
+
+@media screen and (max-width:1084px)
+
+{
+	
+	.why_choose_us_panel_left p{width:calc(100% - 4px); }
+	
+	.why_choose_us_panel{ background-position: -50px bottom}
+
+}
+
+@media screen and (max-width:999px)
+
+{
+
+.header .mid_left {
+    font-size: 18px;
+}
+	
+header .mid_right {
+    padding: 9px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 7px;
+}
+	
+}
+
+
+@media screen and (max-width:950px)
+
+{
+	
+	header .mid {
+    
+    padding-left: 3%; 
+}
+	header .mid_left{font-size: 20px;}
+	
+	.about_panel{text-align: center;    }
+
+.about_panel_left{float:none; width:90%; margin: -65px 0 0 0; display: inline-block; max-width: 700px;}
+
+.about_panel_right{ width:100%; padding: 40px;}
+
+}
+
+@media screen and (max-width:900px)
+
+{
+
+}
+
+@media screen and (max-width:850px)
+
+{
+	
+	
+
+}
+
+@media screen and (max-width:800px)
+
+{
+
+header .left {
+    width: 123px;}
+
+
+header .mid_left {
+	font-size: 14px;}
+
+header .mid_left img{width:20px; margin: 0;}
+
+header .mid_right {
+	padding:9px 10px;
+    font-size: 14px;
+    margin: 0 10px;
+    border-radius: 7px;
+}
+}
+
+@media screen and (max-width:767px)
+
+{
+	
+.why_choose_us_panel{ background-size: 100% auto; background-position: 100px bottom }
+	
+	.why_choose_us_panel{padding: 50px 40px 150px; }
+	
+	.bottom_panel_right{width:100%; margin-top: 30px;}
+	
+	.bottom_panel_left{width:100%;  }
+	
+	.footer_cont_box{width:calc(100% / 2 - 4px); margin: 10px 0 }
+	
+	
+	.solution_panel1 article {
+    width: 100%;
+	}
+	
+	
+	.solution_panel_image {
+    width:100%; margin-bottom: 20px; height: auto;
+}
+.about_left_area
+{
+	width:100%;
+	text-align:center;
+}
+.about_left_area img
+{
+	max-width:300px;
+}
+.about_right_area
+{
+	width:100%;
+	margin-left:0;
+	margin-top:25px;
+	text-align:center;
+}
+	
+	.step_panel article{width:100%; text-align: center;}
+	
+	.step_panel_box {
+    width: calc(100% ); text-align: center;
+		
+		
+}
+	
+	
+	
+	.step_panel_arrow{transform: rotate(90deg)}
+	
+	
+	
+	.step_panel_box_right {
+    text-align: center;
+		width:auto;
+		
+}
+	
+	.step_panel_box_left {
+    font-size: 30px;
+    width: 36px;
+}
+	
+	.step_panel_arrow {
+    margin: 20px 20px 20px 30px;
+}
+	
+	.step_panel article:last-child {
+    width: calc(100% - 85px);
+}
+	
+
+}
+
+
+@media screen and (max-width:700px)
+
+{
+header .mid_right{display: none;}
+.banner_panel {margin: 55px 0 0 0;}
+}
+
+
+@media screen and (max-width:667px)
+
+{
+header .mid_right{display: none;}
+.banner_panel {margin: 55px 0 0 0;}
+header {padding: 15px 25px;}
+}
+
+
+@media screen and (max-width:600px)
+
+{
+
+.banner_panel {margin: 65px 0 0 0;}
+header {padding: 10px 25px;}
+header .mid_right {display: none;}
+header .mid_left img {display: none;}
+	
+header	.left img{
+    float: left;
+}
+	
+.map_panel_img{
+    padding: 270px 40px 275px;
+}
+	
+.map_panel_form_left{width:100%; }
+
+.map_panel_form_right{width:100%; }
+	
+	
+.bottom_panel_left a {
+    width: 45px;
+    height: 45px;
+    padding: 7px 0 0 0;
+    font-size: 30px;
+}
+	
+	
+header .mid_right {
+    padding: 5px 5px;
+    font-size: 12px;
+    margin: 0 2px;
+}
+	
+.index_mob_desktop{display:none !important;}
+
+.index_mob_mobile{display:inline-block!important; margin-top: 5px;margin-left: 10px;}
+	
+header .left {
+    width:calc(100% - 8px); }
+	
+	header .left img{width:125px; margin-right: 10px;}
+	
+	header .mid_right{margin-top: 7px; margin-left: -10px;}
+
+	
+	
+}
+
+@media screen and (max-width:500px)
+
+{
+	
+	
+	
+	.footer_cont_box{width:calc(100% - 4px); text-align: center }
+	
+	.bottom_footer{text-align: center;}
+	
+	header{padding: 16px 50px 15px 10px;}
+	
+	header .banner_panel {margin: 80px 0 0 0;}
+	header .mid_right{display: none;}
+	
+}
+
+
+@media screen and (max-width:480px)
+
+{
+	
+.mid_left img{display: none;}
+	
+header .mid_right{display: none;}	
+
+}
+
+
+@media screen and (max-width:400px)
+
+{
+}
+
