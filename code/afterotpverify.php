@@ -34,7 +34,8 @@ $useridsearch = "SELECT * from pmusers where pmusermobile = '$usermobile'";
 	 	VALUES ('$dusername', '$usermobile', '$useremail', CURRENT_TIMESTAMP)";
 		if(mysqli_query($link, $usercreation)){    
 	    	$_SESSION["sessionvariable"] = "set";
-	 		$_SESSION["usermobile"] = $usermobile;    
+			 $_SESSION["usermobile"] = $usermobile; 
+			 $_SESSION['username'] = $dusername;   
 		}
 		$useridsearchresult = mysqli_query($link, $useridsearch);
 		if(mysqli_num_rows($useridsearchresult)!=NULL){
@@ -83,6 +84,7 @@ $useridsearch = "SELECT * from pmusers where pmusermobile = '$usermobile'";
 			$userid = $row["pmuserid"];
 			$_SESSION["sessionvariable"] = "set";
 			$_SESSION["usermobile"] = $usermobile;
+			$_SESSION['username'] = $dusername;
 		}
 
 

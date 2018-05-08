@@ -105,7 +105,7 @@
 							 		<hr>
 							 		<div class="row">
 							 			<div class="col-md-3">
-							 				<div><b>Refference Number</b></div>
+							 				<div><b>Reference Number</b></div>
 							 			<?php echo  $value['pmrefference'];?>
 							 			</div>
 							 			<div class="col-md-5">
@@ -181,7 +181,7 @@
 							 		<hr>
 							 		<div class="row">
 							 			<div class="col-md-3">
-							 				<div><b>Refference Number</b></div>
+							 				<div><b>Reference number</b></div>
 							 			<?php echo  $value['pmrefference'];?>
 							 			</div>
 							 			<div class="col-md-5">

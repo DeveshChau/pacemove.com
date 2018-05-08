@@ -60,6 +60,7 @@ else {
   	if ($response1 == 'success') {
 		$_SESSION["sessionvariable"] = "set";
 		$_SESSION["usermobile"] = $usermobile;
+		
 		echo json_encode($usermobile);
 	}
 	else{

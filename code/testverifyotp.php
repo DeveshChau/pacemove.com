@@ -80,7 +80,8 @@ else {
 		 	VALUES ('$dusername', '$usermobile', '$useremail', CURRENT_TIMESTAMP)";
 			if(mysqli_query($link, $usercreation)){    
 		    	$_SESSION["sessionvariable"] = "set";
-		 		$_SESSION["usermobile"] = $usermobile;    
+				 $_SESSION["usermobile"] = $usermobile;
+				 $_SESSION['username'] = $dusername;    
 			}
 
 			$useridsearchresult = mysqli_query($link, $useridsearch);
@@ -129,7 +130,7 @@ else {
 				$userid = $row["pmuserid"];
 				$_SESSION["sessionvariable"] = "set";
 				$_SESSION["usermobile"] = $usermobile;
-			
+				$_SESSION['username'] = $dusername;
 
 
 				$orders = "INSERT INTO pmorders (pmorderdate, pmorderpickuplocation, pmorderpickupfloor, pmorderpickuplift, pmorderdroplocation, pmorderdropfloor, pmorderdroplift, pmuserid, statuslist,pmrefference) VALUES ('$pickupdate', '$pickupLocationApartment', '$pickupfloor', '$pickuplift', '$dropLocationApartment', '$dropfloor', '$droplift', '$userid', 'Move Booked',$refference)";
