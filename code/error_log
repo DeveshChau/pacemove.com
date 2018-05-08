@@ -2421,6 +2421,7 @@ Stack trace:
 [23-Apr-2018 10:49:56 UTC] PHP Notice:  Undefined variable: _row in /home/looporinternet/public_html/pacemove.com/code/tracksendotp.php on line 22
 [23-Apr-2018 11:12:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/looporinternet/public_html/pacemove.com/code/callback.php on line 39
 [23-Apr-2018 11:14:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/looporinternet/public_html/pacemove.com/code/callback.php on line 39
+<<<<<<< HEAD
 [23-Apr-2018 15:01:49 UTC] PHP Notice:  Undefined variable: userid in /home/looporinternet/public_html/pacemove.com/code/userdashboard.php on line 75
 [23-Apr-2018 15:01:49 UTC] PHP Notice:  Undefined variable: userid in /home/looporinternet/public_html/pacemove.com/code/userdashboard.php on line 144
 [24-Apr-2018 03:51:00 UTC] PHP Notice:  Undefined variable: phone in /home/looporinternet/public_html/pacemove.com/code/index.php on line 269
@@ -2448,3 +2449,5 @@ Stack trace:
 [01-May-2018 17:34:04 UTC] PHP Notice:  Undefined variable: userid in /home/looporinternet/public_html/pacemove.com/code/userdashboard.php on line 144
 [07-May-2018 17:47:48 UTC] PHP Notice:  Undefined variable: items in /home/looporinternet/public_html/pacemove.com/code/movables.php on line 43
 [07-May-2018 17:47:48 UTC] PHP Notice:  Undefined variable: quantity in /home/looporinternet/public_html/pacemove.com/code/movables.php on line 48
+=======
+>>>>>>> dc6a5f5e34f12fb2f0ba7877e010f8ed5eb2f477
