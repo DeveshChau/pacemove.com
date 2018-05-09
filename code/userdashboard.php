@@ -91,8 +91,8 @@
 							 			<div class="col-md-4">
 							 				<p><b>Drop Location</b></p>
 							 			<?php echo  $row['pmorderdroplocation'];?>
-							 			<div><?php echo "Lift: ". $row['pmorderpickuplift'];?></div>
-							 			<div><?php echo "Floor: ". $row['pmorderpickupfloor'];?></div>
+							 			<div><?php echo "Lift: ". $row['pmorderdroplift'];?></div>
+							 			<div><?php echo "Floor: ". $row['pmorderdropfloor'];?></div>
 							 			</div>
 							 		</div>
 							 		<hr>
@@ -158,8 +158,8 @@
 							 			<div class="col-md-4">
 							 				<p><b>Drop Location</b></p>
 							 			<?php echo  $row2['pmorderdroplocation'];?>
-							 			<div><?php echo "Lift: ". $row2['pmorderpickuplift'];?></div>
-							 			<div><?php echo "Floor: ". $row2['pmorderpickupfloor'];?></div>
+							 			<div><?php echo "Lift: ". $row2['pmorderdroplift'];?></div>
+							 			<div><?php echo "Floor: ". $row2['pmorderdropfloor'];?></div>
 							 			</div>
 							 			</div>
 							 		<hr>
