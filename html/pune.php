@@ -199,7 +199,7 @@
                 </a>
               </li>
               <li>
-                <a >Packers and Movers in Kondhava
+                <a >Packers and Movers in Kondhwa
                 </a>
               </li>
               <li>
@@ -303,7 +303,7 @@
                 </a>
               </li>
               <li>
-                <a >Packers and Movers in Pimpari Chinchwad
+                <a >Packers and Movers in Pimpri Chinchwad
                 </a>
               </li>
               <li>

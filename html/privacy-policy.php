@@ -196,7 +196,7 @@
               <p class="sub-text">Please review the following carefully so that you understand our privacy practices. If you do not agree to this Privacy Policy, do not use any of our Services or give us any of your information. In addition, please review our Terms and Conditions, which may apply to your use of our websites and mobile applications. This Privacy Policy is incorporated by reference into the applicable Terms and Conditions.
               </p>
               <p class="sub-text">If you have questions about this Privacy Policy, please contact us at 
-                <a href="mailto:support@pacemove.in" title="support@pacemove.in">support@pacemove.in
+                <a href="mailto:support@pacemove.com" title="support@pacemove.com">support@pacemove.com
                 </a>
               </p>
               <h3 class="uppercase">1. WHAT INFORMATION DO WE COLLECT?

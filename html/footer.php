@@ -40,7 +40,7 @@
           <p>
             <i class="fa fa-envelope" aria-hidden="true">
             </i>
-            <a href="mailto:info@pacemove.com">info@pacemove.com
+            <a href="mailto:support@pacemove.com">support@pacemove.com
             </a>
           </p>
         </div>
