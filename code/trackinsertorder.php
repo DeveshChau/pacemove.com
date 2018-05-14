@@ -9,10 +9,12 @@
 	$dropfloor = $_POST['dropfloor'];
 	$droplift = $_POST['droplift'];	
 	
-$mil = $_POST['pickupdate']; 
-$seconds = $mil / 1000;
-$seconds = $seconds + 86400;
-$trackpickupdate = date("Y-m-d", $seconds);
+	$mil = $_POST['pickupdate']; 
+	$seconds = $mil / 1000;
+	$seconds = $seconds + 86400;
+	$trackpickupdate = date("Y-m-d", $seconds);
+	
+
 	$servername = "localhost";
 	$username = "huey_pacemove";
 	$password = "huey_PM@1";
@@ -31,6 +33,18 @@ $trackpickupdate = date("Y-m-d", $seconds);
 		$refference = $refference + 1;
 
 	}
+
+	//mail start
+
+		$body="Dear ".$dusername."\r\n ".
+		"Your Move has been Booked with reference number ".$refference."\r\n ".
+		"We  will  contact  you at the earliest"."\r\n ".
+		"%0A%23HappyMoving"."\r\n ".
+		"PaceMove.";
+	
+		$header= $dusername."<".$dusername.">";
+	
+	//mail end
 	$useridsearch = "SELECT * from pmusers where pmusermobile = '$usermobile'";
 	$useridsearchresult = mysqli_query($link, $useridsearch);
 
@@ -66,7 +80,7 @@ $trackpickupdate = date("Y-m-d", $seconds);
 	$err = curl_error($curl);
 
 	curl_close($curl);
-
+	mail("deveshachaudhari@gmail.com","Booking Confirmation",$body,$header);
 	if ($err) {
 	  echo json_encode("cURL Error #:" . $err);
 	} else {
