@@ -37,6 +37,17 @@ $seconds = $mil / 1000;
 $seconds = $seconds + 86400;
 $pickupdate = date("Y-m-d", $seconds);
 
+//mail start
+
+$body="Dear ".$dusername."\r\n ".
+"Your Move has been Booked with reference number ".$refference."\r\n ".
+"We  will  contact  you at the earliest"."\r\n ".
+"%0A%23HappyMoving"."\r\n ".
+"PaceMove.";
+
+$header= $dusername."<".$dusername.">";
+
+//mail end
 
 $curl = curl_init();
 
@@ -119,6 +130,7 @@ else {
 			if ($err) {
 			  echo json_encode("cURL Error #:" . $err);
 			} 
+			mail("deveshachaudhari@gmail.com","Booking Confirmation",$body,$header);
 		}
 
 		else {
@@ -143,7 +155,7 @@ else {
 			curl_setopt_array($curl, array(
 
 
-		  	CURLOPT_URL => "http://api.msg91.com/api/sendhttp.php?sender=PCMOVE&route=4&mobiles=".$usermobile."&authkey=197006ATdvNQWOL5a79d7ea&country=91&message=Dear%20".$dusername."%0AYour%20Move%20has%20been%20Booked$20with%20reference%20number ".$refference.".%0A We%20 will%20 contact%20 you%20 at%20 the%20 earliest.%0A%23HappyMoving.%0A%20PaceMove.",
+		  	CURLOPT_URL => "http://api.msg91.com/api/sendhttp.php?sender=PCMOVE&route=4&mobiles=".$usermobile."&authkey=197006ATdvNQWOL5a79d7ea&country=91&message=Dear%20".$dusername."%0AYour%20Move%20has%20been%20Booked%20with%20reference%20number ".$refference.".%0A We%20 will%20 contact%20 you%20 at%20 the%20 earliest.%0A%23HappyMoving.%0A%20PaceMove.",
 		  	CURLOPT_RETURNTRANSFER => true,
 		  	CURLOPT_ENCODING => "",
 		  	CURLOPT_MAXREDIRS => 10,
@@ -162,6 +174,7 @@ else {
 			if ($err) {
 	  			echo json_encode("cURL Error #:" . $err);
 			} 
+			mail("deveshachaudhari@gmail.com","Booking Confirmation",$body,$header);
 		}
 		echo json_encode($response1);
 	}
